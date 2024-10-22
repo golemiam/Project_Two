@@ -4,9 +4,60 @@
 Message Copilot
 
 
-Sign in
 You
-Page1of 2Discrete MathematicsComputer Science 2430Programming project 2For this assignment, write, test, and execute code to solve the following problems. Youshould also answer all of the questions.We have looked at set operations. In real life there are several common extensions ofsets that are commonly used. Given subsets A and B of a set with n elements, use bit strings or an array ofBooleans to find not(A), A∪B, A∩B, A – B, and A ⊕ B (the symmetricdifference of A and B defined as (A – B) ∪ (B – A)). Sometimes the number of times an element occurs in an unordered collectionmatters. A multiset (or mset or bag) is an unordered collection of elements wherean element can occur as a member more than once (seehttps://en.wikipedia.org/wiki/Multiset). Given multisets C and D from the sameuniversal set, find C∪D, C∩D, C – D, and C + D. You may need different data structures and different methods (or even differentclasses) for the two problems. You do not need to prompt the user for input for these, it’s perfectly fine to hardcode your input.After writing your code, please answer the following questions.Fuzzy sets are often used to capture concepts where the boundary is imprecise orcontextual (such as young, old, tall, fast, rich, cool). The question “Is 25 young?”depends on the context. While fuzzy sets are not going to be coded in this assignmentconsider the use of fuzzy sets when answering questions 4, 5, and 6 below.Often times, in natural language processing (i.e., the user asks queries in English, inDutch, or in some other language) the user may not distinguish between sets, multisets,fuzzy sets, or other types of sets. For example, ‘Which of our customers attendedSLCC?’ would likely answered using a set. ‘Which schools did our customers attend andhow many attended each school?’ would likely be answered using a multiset.Note: In the following question, I would like you to be specific when you answer thewhy portion of the questions. Whenever you design or use code you should be aware notonly of what the code can do, but also what it’s limitation are.1) If you used different arrays/structures/classes to represent the different types ofsets, would it be possible to have overloaded methods or operations that would providethe correct functionality regardless of whether or not you were using sets or multi sets?Why or why not? (You do not need to code this, just answer the question).2) Would it be possible to use the same data set/structure/class to store sets and multisets Why or why not?3) How easy or difficult is it to determine the type of set that you need to use basedon the users query? Why?Remember to also consider fuzzy sets in your answer to the following questions.4) Is it possible to store the data from one type of set (plain sets or multi sets inanother type? Would you need to lose data in order to do so? Why?5) Discuss what implications your answers to questions 1 – 4 have for someonetrying to code an interface which would allow users to type in natural language queries.6) Discuss what implications your answers to questions 1 – 5 have for someonetrying to code an interface which would allow users to access arbitrary types of datausing natural language.Your code needs to be well documented with proper comments and make good use ofwhite space. Of course, well documented code, also includes the names of the authors.
+Page
+1
+of 2
+Discrete Mathematics
+Computer Science 2430
+Programming project 2
+For this assignment, write, test, and execute code to solve the following problems. You
+should also answer all of the questions.
+We have looked at set operations. In real life there are several common extensions of
+sets that are commonly used.
+ Given subsets A and B of a set with n elements, use bit strings or an array of
+Booleans to find not(A), A∪B, A∩B, A – B, and A ⊕ B (the symmetric
+difference of A and B defined as (A – B) ∪ (B – A)).
+ Sometimes the number of times an element occurs in an unordered collection
+matters. A multiset (or mset or bag) is an unordered collection of elements where
+an element can occur as a member more than once (see
+https://en.wikipedia.org/wiki/Multiset). Given multisets C and D from the same
+universal set, find C∪D, C∩D, C – D, and C + D.
+ You may need different data structures and different methods (or even different
+classes) for the two problems.
+ You do not need to prompt the user for input for these, it’s perfectly fine to hard
+code your input.
+After writing your code, please answer the following questions.
+Fuzzy sets are often used to capture concepts where the boundary is imprecise or
+contextual (such as young, old, tall, fast, rich, cool). The question “Is 25 young?”
+depends on the context. While fuzzy sets are not going to be coded in this assignment
+consider the use of fuzzy sets when answering questions 4, 5, and 6 below.
+Often times, in natural language processing (i.e., the user asks queries in English, in
+Dutch, or in some other language) the user may not distinguish between sets, multisets,
+fuzzy sets, or other types of sets. For example, ‘Which of our customers attended
+SLCC?’ would likely answered using a set. ‘Which schools did our customers attend and
+how many attended each school?’ would likely be answered using a multiset.
+Note: In the following question, I would like you to be specific when you answer the
+why portion of the questions. Whenever you design or use code you should be aware not
+only of what the code can do, but also what it’s limitation are.
+1) If you used different arrays/structures/classes to represent the different types of
+sets, would it be possible to have overloaded methods or operations that would provide
+the correct functionality regardless of whether or not you were using sets or multi sets?
+Why or why not? (You do not need to code this, just answer the question).
+2) Would it be possible to use the same data set/structure/class to store sets and multi
+sets Why or why not?
+3) How easy or difficult is it to determine the type of set that you need to use based
+on the users query? Why?
+Remember to also consider fuzzy sets in your answer to the following questions.
+4) Is it possible to store the data from one type of set (plain sets or multi sets in
+another type? Would you need to lose data in order to do so? Why?
+5) Discuss what implications your answers to questions 1 – 4 have for someone
+trying to code an interface which would allow users to type in natural language queries.
+6) Discuss what implications your answers to questions 1 – 5 have for someone
+trying to code an interface which would allow users to access arbitrary types of data
+using natural language.
+Your code needs to be well documented with proper comments and make good use of
+white space. Of course, well documented code, also includes the names of the authors.
 Copilot
 Alright, you’ve got a pretty detailed assignment on your plate! Let's break this down and tackle each part step by step. Here's a brief summary of what you'll need to do for the programming project:
 
@@ -69,7 +120,16 @@ You’ve got a lot of ground to cover, but taking it step by step will help! Nee
 
 
 You
-Can you provide me some examples of Complement: not(A)Union: A ∪ BIntersection: A ∩ BDifference: A - BSymmetric Difference: A ⊕ B = (A - B) ∪ (B - A)
+Can you provide me some examples of 
+Complement: not(A)
+
+Union: A ∪ B
+
+Intersection: A ∩ B
+
+Difference: A - B
+
+Symmetric Difference: A ⊕ B = (A - B) ∪ (B - A)
 Copilot
 Sure thing! Let's break down each of those set operations with some examples:
 
@@ -192,103 +252,792 @@ Let's move on to the next part, shall we? Would you like to explore the data con
 
 
 You
-Data Conversion: Is it possible to store data from one type of set in another? Would you need to lose data to do so? Why?
+For the following graph G, what it the vertex connectivity 
+(G) and what is the edge connectivity 
+(G)?
 Copilot
-Yes, it's possible to convert data from one type of set to another, but it’s not always straightforward. Depending on the type of set you're converting to, you might lose some information.
+To find the vertex connectivity and edge connectivity of a graph 
+G
+, we need to know the structure and connections within the graph.
 
-Converting a Set to a Multiset
-Feasibility: Easy. Each element from the set can be added to the multiset with a count of one.
+Vertex Connectivity (
+κ
+(
+G
+)
+)
+Vertex connectivity is the minimum number of vertices that need to be removed to disconnect the remaining vertices or to make the graph trivial (a single vertex).
 
-Data Loss: None. Sets don't store duplicate elements, so all elements of the set can be directly transferred to the multiset without loss.
+Edge Connectivity (
+λ
+(
+G
+)
+)
+Edge connectivity is the minimum number of edges that need to be removed to disconnect the remaining vertices.
 
-Converting a Multiset to a Set
-Feasibility: Simple. You just need to take the unique elements from the multiset.
+If you provide the graph (G), either as an adjacency list, matrix, or a visual representation, I can help you calculate these values!
 
-Data Loss: Yes. Multisets can have multiple occurrences of the same element. When converting to a set, you lose the information about the number of occurrences, as sets only store unique elements.
+Alternatively, here’s an example with a simple graph:
 
-Summary
-Set to Multiset: No data loss. All unique elements are transferred.
+Consider a triangle graph with vertices {A, B, C} and edges {AB, BC, CA}.
 
-Multiset to Set: Data loss occurs. Multiple occurrences are reduced to a single occurrence per element.
+Vertex Connectivity: 
+κ
+(
+G
+)
+ = 2 (removing any 2 vertices will disconnect the graph).
 
-Implications
-These conversions illustrate that while it's straightforward to transition between set and multiset representations, the direction of conversion significantly impacts data preservation. Converting from a set to a multiset is lossless, but the reverse results in the loss of duplicate counts, which could be crucial depending on the context of your application.
+Edge Connectivity: 
+λ
+(
+G
+)
+ = 2 (removing any 2 edges will disconnect the graph).
 
-How does this fit into the broader picture of your assignment? Does it spark any thoughts for your next steps?
+Hope that helps! If you can give more details about your graph, we can dig into specifics.
 
 
 
 
 You
-Interface Implications: What implications do your answers to questions 1–4 have for coding an interface for natural language queries?
+What is the chromatic number of the following graph?
 Copilot
-The implications are quite significant. Here’s a rundown of the key points:
+Chromatic number is a key concept in graph theory, representing the minimum number of colors needed to color the vertices of a graph so that no two adjacent vertices share the same color.
 
-Handling Overloaded Methods
-User-Friendly Interactions: Using overloaded methods allows the interface to handle different set operations seamlessly, making the system more intuitive for users. However, the complexity of implementation increases, especially in ensuring the correct method is called based on context.
+To determine the chromatic number (
+χ
+(
+G
+)
+) of your graph, I'd need a detailed description or visual of the graph you're referring to. If you provide the graph details or describe its adjacency list/matrix, I can help you figure it out.
 
-Error Handling: Clear error messages and fallback mechanisms are essential to handle incorrect or ambiguous queries gracefully.
-
-Using a Common Data Structure
-Unified Access: A common data structure for sets and multisets simplifies the backend, making it easier to manage and maintain. The interface can provide a consistent user experience, regardless of the underlying data type.
-
-Dynamic Typing: The interface might need to dynamically type the data structures based on user queries, which adds a layer of complexity but enhances flexibility.
-
-Determining Set Types
-Natural Language Processing (NLP): Robust NLP is critical to accurately interpret the user’s intent and determine whether they’re referring to sets, multisets, or even fuzzy sets. This requires sophisticated algorithms capable of context-aware analysis.
-
-Context Awareness: The system must be aware of the context in which queries are made, leveraging prior interactions and additional context clues to refine the determination process.
-
-Data Conversion
-Preserving Information: When converting between sets and multisets, the system must ensure that data integrity is maintained as much as possible. For instance, user queries that involve counts should retain that information.
-
-Loss Management: The interface should clearly communicate to users when data loss occurs due to conversion (e.g., dropping duplicate elements when converting a multiset to a set).
-
-Implications Summary
-User Guidance: The interface needs to provide clear guidance and feedback to help users formulate their queries correctly.
-
-Flexibility: Ensuring the system can handle various data structures and operations without overwhelming the user.
-
-Transparency: Being transparent about any limitations or data transformations that occur as a result of user queries.
-
-Intuitive Design: Creating an intuitive and user-friendly interface that masks the underlying complexity, allowing users to focus on their queries without needing technical knowledge of sets and multisets.
-
-This all underscores the importance of a well-designed NLP system and a robust backend to support seamless interactions. Excited to tackle the last bit? Let's talk about accessing arbitrary data types using natural language.
+If you'd like, I can guide you on how to approach this problem for your specific graph!
 
 
 
 
 You
-Arbitrary Data Access: What implications do your answers have for coding an interface to access arbitrary types of data using natural language?
+Can you give me more information so I can solve it myself
 Copilot
-When it comes to coding an interface to access arbitrary types of data using natural language, the implications from our discussions are vast and critical:
+Absolutely, let’s dive into the process of finding the chromatic number:
 
-Handling Various Data Types
-Unified Data Structure: Using a common data structure that can flexibly handle sets, multisets, and potentially fuzzy sets simplifies data management. This means your system can adapt dynamically to the type of data requested by the user.
+Steps to Determine Chromatic Number (
+χ
+(
+G
+)
+)
+Understand the Graph Structure:
 
-Dynamic Typing and Conversion: The interface must be capable of dynamically determining the type of data based on user queries. This includes converting between types when necessary, while being transparent about any data loss (e.g., dropping duplicate counts).
+Identify all vertices and edges.
 
-Natural Language Processing (NLP)
-Robust NLP Capabilities: Your interface must be equipped with advanced NLP capabilities to accurately interpret the user's intent and determine the appropriate data type. This involves understanding nuances in natural language and making context-aware decisions.
+Consider if your graph is simple, complete, bipartite, etc.
 
-Disambiguation Mechanisms: Implementing disambiguation prompts to clarify user intent can help ensure the correct data type is accessed or manipulated. For instance, if a query could imply multiple interpretations, the system should ask for clarification.
+Initial Observations:
 
-User Experience (UX)
-User Guidance and Feedback: Providing users with clear guidance on how to formulate queries and offering immediate feedback on their requests can enhance usability. Error messages and suggestions for refining queries are vital.
+Look at small subgraphs and think about the minimum number of colors required.
 
-Transparency and Information: The system should inform users when data transformations occur (e.g., converting a multiset to a set and losing count information) and explain why certain data types are chosen for specific queries.
+Remember, adjacent vertices must have different colors.
 
-Performance and Scalability
-Efficient Data Handling: Ensuring that the system can handle large datasets and perform operations efficiently is crucial. This involves optimizing data structures and algorithms for performance.
+Greedy Coloring Algorithm (One approach to start with):
 
-Scalability: The interface must be scalable to accommodate increasing amounts of data and user queries without compromising performance.
+Assign colors to vertices one by one.
 
-Interface Design
-Intuitive Design: The interface should be intuitive, allowing users to access and manipulate data with minimal learning curve. This includes designing a clean and user-friendly interface that masks underlying complexities.
+Choose the smallest color that has not been used on adjacent vertices.
 
-Flexibility and Adaptability: The system should be flexible enough to adapt to various user needs and queries, accommodating different types of data and operations seamlessly.
+Here’s a basic pseudocode:
 
-Implications Summary
-Creating an interface for arbitrary data access using natural language involves designing a flexible, robust, and intuitive system capable of handling various data types and user queries. It requires a strong foundation in NLP, dynamic data handling, and user-centric design principles.
 
-Feeling ready to tackle this challenge or need more insights on specific aspects? Let me know how else I can assist!
+Copy
+Initialize the first vertex with color 1.
+For each subsequent vertex:
+    Create a list of colors available.
+    For each neighbor of the vertex:
+        If the neighbor is colored, remove that color from the list.
+    Assign the vertex with the smallest available color.
+Special Graph Cases:
+
+Complete Graph (K_n): Chromatic number is 
+n
+, as each vertex needs a unique color.
+
+Bipartite Graph: Chromatic number is 2 (can be colored using 2 colors).
+
+Example:
+Let’s say we have a simple graph:
+
+Vertices: A, B, C, D
+
+Edges: AB, AC, BD, CD
+
+Color A with 1.
+
+Color B with 2 (since B is adjacent to A).
+
+Color C with 2 (since C is adjacent to A but not B).
+
+Color D with 1 (since D is adjacent to B and C, but not A).
+
+Here, we needed 2 colors.
+
+Practice:
+Try this method on your graph. Note down each step, adjust as necessary, and you’ll get the chromatic number!
+
+Dive in and see how it goes—don’t hesitate to ask if you hit a snag!
+
+
+
+
+You
+Is the amount of needed colors the chromatic number then?
+Copilot
+Exactly! The chromatic number (
+χ
+(
+G
+)
+) of a graph 
+G
+ is indeed the minimum number of colors needed to color the vertices so that no two adjacent vertices share the same color. So, if you determine that a graph needs, say, 3 colors to achieve this condition, then the chromatic number of that graph is 3.
+
+Cool to see how theory translates into these practical applications, huh? Got any specific graph you’re itching to analyze now?
+
+
+
+
+You
+Code (or find) the algorithms that you will be testing your code on. Each of these
+algorithms should be well structured and commented and use good coding techniques.
+They should accept an unsorted array of integers as an argument (perhaps one of several
+arguments) and return the sorted array as well as a count of the number of comparisons
+that you performed in sorting the array.
+
+Can we do this?
+Copilot
+Absolutely, let’s get cracking on this! I’ll give you some well-structured and commented sorting algorithms with the capability to count comparisons. Let's start with a few popular ones: Bubble Sort, Quick Sort, and Merge Sort.
+
+1. Bubble Sort
+python
+
+Copy
+def bubble_sort(arr):
+    n = len(arr)
+    comparisons = 0
+    for i in range(n):
+        for j in range(0, n-i-1):
+            comparisons += 1
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr, comparisons
+
+# Example usage
+unsorted_array = [64, 34, 25, 12, 22, 11, 90]
+sorted_array, count_comparisons = bubble_sort(unsorted_array)
+print(f'Sorted array: {sorted_array}')
+print(f'Number of comparisons: {count_comparisons}')
+2. Quick Sort
+python
+
+Copy
+def partition(arr, low, high):
+    pivot = arr[high]
+    i = low - 1
+    comparisons = 0
+    for j in range(low, high):
+        comparisons += 1
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i+1], arr[high] = arr[high], arr[i+1]
+    return i+1, comparisons
+
+def quick_sort(arr, low, high):
+    comparisons = 0
+    if low < high:
+        pi, new_comparisons = partition(arr, low, high)
+        comparisons += new_comparisons
+        left_comparisons = quick_sort(arr, low, pi-1)
+        right_comparisons = quick_sort(arr, pi+1, high)
+        comparisons += left_comparisons + right_comparisons
+    return comparisons
+
+# Example usage
+unsorted_array = [10, 7, 8, 9, 1, 5]
+n = len(unsorted_array)
+comparisons = quick_sort(unsorted_array, 0, n-1)
+print(f'Sorted array: {unsorted_array}')
+print(f'Number of comparisons: {comparisons}')
+3. Merge Sort
+python
+
+Copy
+def merge(arr, l, m, r):
+    n1 = m - l + 1
+    n2 = r - m
+    L = arr[l:m+1]
+    R = arr[m+1:r+1]
+    i = j = 0
+    k = l
+    comparisons = 0
+    while i < n1 and j < n2:
+        comparisons += 1
+        if L[i] <= R[j]:
+            arr[k] = L[i]
+            i += 1
+        else:
+            arr[k] = R[j]
+            j += 1
+        k += 1
+    while i < n1:
+        arr[k] = L[i]
+        i += 1
+        k += 1
+    while j < n2:
+        arr[k] = R[j]
+        j += 1
+        k += 1
+    return comparisons
+
+def merge_sort(arr, l, r):
+    comparisons = 0
+    if l < r:
+        m = l + (r - l) // 2
+        comparisons += merge_sort(arr, l, m)
+        comparisons += merge_sort(arr, m + 1, r)
+        comparisons += merge(arr, l, m, r)
+    return comparisons
+
+# Example usage
+unsorted_array = [12, 11, 13, 5, 6, 7]
+n = len(unsorted_array)
+comparisons = merge_sort(unsorted_array, 0, n-1)
+print(f'Sorted array: {unsorted_array}')
+print(f'Number of comparisons: {comparisons}')
+Recap
+These snippets include Bubble Sort, Quick Sort, and Merge Sort. Each of them:
+
+Accepts an unsorted array of integers.
+
+Returns the sorted array and the count of comparisons made during sorting.
+
+This should give you a solid start. Dive into the code, run some tests, and see how each algorithm performs! Let me know if you need more help.1
+2
+
+
+1
+github.com
+
+2
+github.com
+
+
+
+You
+Part 2
+You will need an array generator that will produce all of the possible permutations of n
+integers (where, for example, if n were three, it would produce {0,1,2}, {0,2,1}, (1,0,2},
+{1,2,0}, {2,0,1}, and {2,1,0}). You might find it useful to google lexicographic order or
+lexicographic algorithm
+
+can we do this?
+Copilot
+Absolutely, we can do that! Let's get right into writing an array generator that produces all possible permutations of 
+n
+ integers using a lexicographic order algorithm.
+
+Here's a Python implementation:
+
+python
+
+Copy
+import itertools
+
+def generate_permutations(n):
+    # Generate an array of n integers: [0, 1, 2, ..., n-1]
+    arr = list(range(n))
+    # Use itertools to generate all permutations
+    permutations = list(itertools.permutations(arr))
+    return permutations
+
+# Example usage
+n = 3
+perms = generate_permutations(n)
+for perm in perms:
+    print(perm)
+Explanation
+Import itertools: The itertools module in Python provides a built-in function to generate permutations.
+
+Generate Array: Create an array of integers from 0 to 
+n
+−
+1
+.
+
+Generate Permutations: Use itertools.permutations to generate all possible permutations of the array.
+
+Output: Print each permutation.
+
+Example Output for 
+n
+=
+3
+
+Copy
+(0, 1, 2)
+(0, 2, 1)
+(1, 0, 2)
+(1, 2, 0)
+(2, 0, 1)
+(2, 1, 0)
+This code will give you all permutations of 
+n
+ integers in lexicographic order. Play around with different values of 
+n
+ and see the magic unfold! Need anything more specific?
+
+
+
+
+You
+Part 3
+You will need a test driver that will be able to call the functions from part 1 with all of
+the possible permutations output from part 2 and keep track of the results. In other
+words, you will need to store the raw data being sorted, as well as the number of
+comparisons executed while performing the sort. This number will be your performance
+metric for part 4
+
+Can we do this?
+Copilot
+Definitely! Let’s write a test driver to combine the sorting algorithms with the permutations generator and track the number of comparisons. Here’s how we can do it:
+
+Test Driver Implementation
+python
+
+Copy
+import itertools
+
+# Sorting Algorithms (from Part 1)
+def bubble_sort(arr):
+    n = len(arr)
+    comparisons = 0
+    for i in range(n):
+        for j in range(0, n-i-1):
+            comparisons += 1
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr, comparisons
+
+def partition(arr, low, high):
+    pivot = arr[high]
+    i = low - 1
+    comparisons = 0
+    for j in range(low, high):
+        comparisons += 1
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i+1], arr[high] = arr[high], arr[i+1]
+    return i+1, comparisons
+
+def quick_sort(arr, low, high):
+    comparisons = 0
+    if low < high:
+        pi, new_comparisons = partition(arr, low, high)
+        comparisons += new_comparisons
+        left_comparisons = quick_sort(arr, low, pi-1)
+        right_comparisons = quick_sort(arr, pi+1, high)
+        comparisons += left_comparisons + right_comparisons
+    return comparisons
+
+def merge(arr, l, m, r):
+    n1 = m - l + 1
+    n2 = r - m
+    L = arr[l:m+1]
+    R = arr[m+1:r+1]
+    i = j = 0
+    k = l
+    comparisons = 0
+    while i < n1 and j < n2:
+        comparisons += 1
+        if L[i] <= R[j]:
+            arr[k] = L[i]
+            i += 1
+        else:
+            arr[k] = R[j]
+            j += 1
+        k += 1
+    while i < n1:
+        arr[k] = L[i]
+        i += 1
+        k += 1
+    while j < n2:
+        arr[k] = R[j]
+        j += 1
+        k += 1
+    return comparisons
+
+def merge_sort(arr, l, r):
+    comparisons = 0
+    if l < r:
+        m = l + (r - l) // 2
+        comparisons += merge_sort(arr, l, m)
+        comparisons += merge_sort(arr, m + 1, r)
+        comparisons += merge(arr, l, m, r)
+    return comparisons
+
+# Permutations Generator (from Part 2)
+def generate_permutations(n):
+    arr = list(range(n))
+    permutations = list(itertools.permutations(arr))
+    return permutations
+
+# Test Driver
+def test_driver(sort_function, permutations):
+    results = []
+    for perm in permutations:
+        arr = list(perm)
+        sorted_arr, comparisons = sort_function(arr[:])
+        results.append((perm, sorted_arr, comparisons))
+    return results
+
+# Example usage with Bubble Sort
+n = 3
+permutations = generate_permutations(n)
+bubble_results = test_driver(lambda x: bubble_sort(x), permutations)
+
+print("Bubble Sort Results:")
+for original, sorted_arr, comparisons in bubble_results:
+    print(f'Original: {original}, Sorted: {sorted_arr}, Comparisons: {comparisons}')
+
+# You can repeat the process for Quick Sort and Merge Sort
+# Example usage with Quick Sort
+quick_results = []
+for perm in permutations:
+    arr = list(perm)
+    comparisons = quick_sort(arr, 0, len(arr)-1)
+    quick_results.append((perm, arr, comparisons))
+
+print("\nQuick Sort Results:")
+for original, sorted_arr, comparisons in quick_results:
+    print(f'Original: {original}, Sorted: {sorted_arr}, Comparisons: {comparisons}')
+
+# Example usage with Merge Sort
+merge_results = []
+for perm in permutations:
+    arr = list(perm)
+    comparisons = merge_sort(arr, 0, len(arr)-1)
+    merge_results.append((perm, arr, comparisons))
+
+print("\nMerge Sort Results:")
+for original, sorted_arr, comparisons in merge_results:
+    print(f'Original: {original}, Sorted: {sorted_arr}, Comparisons: {comparisons}')
+Explanation
+Sorting Algorithms: Reused from part 1 with slight modifications to return the sorted array and comparison count.
+
+Permutations Generator: Reused from part 2.
+
+Test Driver:
+
+Test Function: Accepts a sorting function and permutations.
+
+Iterates over each permutation, sorts it, and records the original permutation, sorted array, and comparison count.
+
+Example Usage:
+
+Generates permutations of a given size.
+
+Tests each permutation with the sorting algorithms.
+
+Prints the results, including original permutation, sorted array, and the number of comparisons.
+
+Ready to dive in and test? Feel free to tweak or expand as needed2
+
+
+1
+github.com
+
+2
+github.com
+
+
+
+You
+Part 4
+Run your code in the following situations; n (the number of items in the array) = 4, n=6,
+and n=8 for all four algorithms.
+In each case keep track of the following pieces of data for each algorithm:
+• The performance of the best 10 cases (along with the corresponding unsorted
+arrays),
+• Average case performance (average of all runs for a given n),
+• The performance of the worst 10 cases (along with the corresponding unsorted
+arrays).
+1) Based on your numbers, provide estimates for big O, big omega, and (if it exists) big
+theta for the algorithms. Show your work. In other words, don’t just look up the
+performance of the algorithms, make your own estimates (this can be an important skill
+later when you are estimating the scalability of third-party tools, frameworks, and
+libraries).
+2) How sensitive were the big O and big omega estimations? In other words, did the
+performance drop quickly when you compared the performance of the best case to the
+second best, the third best, etc. or was the performance stable across these tests?
+3) Use your work in question 1 and 2 to provide estimates of the number of comparisons
+that would be needed in each category for n=12. Just do the math, to brute force this, the
+way you were doing above would require over 12! (or over 476 million) runs per
+algorithm, however, you must show your math.
+4) Just based on the number of comparisons, which algorithm had the better best case,
+worst case, and average case for each of the three values of n that you tested? Would you
+be able to predict which algorithm would give you best, average, and worse case
+performance for any large value of n? If you could, talk about your predictions and how
+you came up with them. If you could not, talk about why you couldn’t make these
+predictions.
+
+Can we do this?
+Copilot
+Sure, this is a robust project! Let's break it down step-by-step:
+
+Part 4 Breakdown
+Run your code for n = 4, 6, 8:
+
+Generate permutations.
+
+Run sorting algorithms on each permutation.
+
+Track performance metrics (comparisons made).
+
+Collect the data:
+
+Best 10 cases.
+
+Average case performance.
+
+Worst 10 cases.
+
+Analyze the performance:
+
+Estimate big O, big Omega, and big Theta.
+
+Analyze sensitivity.
+
+Estimate for n = 12.
+
+Compare the algorithms:
+
+Best case, average case, worst case performance.
+
+Make predictions for large values of n.
+
+Implementation Plan
+Generate permutations for n = 4, 6, 8.
+
+Run sorting algorithms and track comparisons.
+
+Store results and analyze performance.
+
+Coding the Plan
+Generate Permutations
+python
+
+Copy
+import itertools
+
+def generate_permutations(n):
+    arr = list(range(n))
+    permutations = list(itertools.permutations(arr))
+    return permutations
+Sorting Algorithms with Comparison Count
+python
+
+Copy
+def bubble_sort(arr):
+    n = len(arr)
+    comparisons = 0
+    for i in range(n):
+        for j in range(0, n-i-1):
+            comparisons += 1
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr, comparisons
+
+def partition(arr, low, high):
+    pivot = arr[high]
+    i = low - 1
+    comparisons = 0
+    for j in range(low, high):
+        comparisons += 1
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    arr[i+1], arr[high] = arr[high], arr[i+1]
+    return i+1, comparisons
+
+def quick_sort(arr, low, high):
+    comparisons = 0
+    if low < high:
+        pi, new_comparisons = partition(arr, low, high)
+        comparisons += new_comparisons
+        left_comparisons = quick_sort(arr, low, pi-1)
+        right_comparisons = quick_sort(arr, pi+1, high)
+        comparisons += left_comparisons + right_comparisons
+    return comparisons
+
+def merge(arr, l, m, r):
+    n1 = m - l + 1
+    n2 = r - m
+    L = arr[l:m+1]
+    R = arr[m+1:r+1]
+    i = j = 0
+    k = l
+    comparisons = 0
+    while i < n1 and j < n2:
+        comparisons += 1
+        if L[i] <= R[j]:
+            arr[k] = L[i]
+            i += 1
+        else:
+            arr[k] = R[j]
+            j += 1
+        k += 1
+    while i < n1:
+        arr[k] = L[i]
+        i += 1
+        k += 1
+    while j < n2:
+        arr[k] = R[j]
+        j += 1
+        k += 1
+    return comparisons
+
+def merge_sort(arr, l, r):
+    comparisons = 0
+    if l < r:
+        m = l + (r - l) // 2
+        comparisons += merge_sort(arr, l, m)
+        comparisons += merge_sort(arr, m + 1, r)
+        comparisons += merge(arr, l, m, r)
+    return comparisons
+Test Driver
+python
+
+Copy
+def test_driver(sort_function, permutations):
+    results = []
+    for perm in permutations:
+        arr = list(perm)
+        sorted_arr, comparisons = sort_function(arr[:])
+        results.append((perm, sorted_arr, comparisons))
+    return results
+Running Tests
+python
+
+Copy
+# Example usage
+n_values = [4, 6, 8]
+
+for n in n_values:
+    permutations = generate_permutations(n)
+    results = {
+        'bubble': test_driver(lambda x: bubble_sort(x), permutations),
+        'quick': [test_driver(lambda x: (x, quick_sort(x, 0, len(x)-1)), permutations)],
+        'merge': [test_driver(lambda x: (x, merge_sort(x, 0, len(x)-1)), permutations)],
+    }
+    
+    for alg, res in results.items():
+        print(f'\n{alg.capitalize()} Sort Results for n={n}:')
+        res_sorted = sorted(res, key=lambda x: x[2])
+        best_10 = res_sorted[:10]
+        worst_10 = res_sorted[-10:]
+        avg_comparisons = sum(r[2] for r in res_sorted) / len(res_sorted)
+
+        print(f'Best 10 Cases (Comparisons): {[r[2] for r in best_10]}')
+        print(f'Average Case (Comparisons): {avg_comparisons}')
+        print(f'Worst 10 Cases (Comparisons): {[r[2] for r in worst_10]}')
+Big O, Big Omega, Big Theta Analysis
+To estimate the Big O, Omega, and Theta for each algorithm:
+
+Bubble Sort: 
+O
+(
+n
+2
+)
+, 
+Ω
+(
+n
+)
+
+Quick Sort: 
+O
+(
+n
+2
+)
+, 
+Ω
+(
+n
+log
+⁡
+n
+)
+, 
+Θ
+(
+n
+log
+⁡
+n
+)
+
+Merge Sort: 
+O
+(
+n
+log
+⁡
+n
+)
+, 
+Ω
+(
+n
+log
+⁡
+n
+)
+, 
+Θ
+(
+n
+log
+⁡
+n
+)
+
+Sensitivity Analysis
+Track how quickly performance drops off from the best to worst cases for each algorithm.
+
+Estimating Comparisons for 
+n
+=
+12
+Using your observations from smaller 
+n
+, apply the performance trends (e.g., doubling the number of comparisons as 
+n
+ increases).
+
+Comparative Analysis
+Identify which algorithm excels in best case, worst case, and average case performance for the given 
+n
+ values.
+
+Dive in and start running these tests! Note down your observations and use them to answer the remaining questions. Let’s turn this assignment into a solid learning experience2
+
+
+1
+github.com
+
+2
+github.com
