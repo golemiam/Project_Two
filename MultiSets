@@ -1,0 +1,121 @@
+package SetManipulation;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * This class provides methods for performing operations on multisets (also known as msets or bags),
+ * which are unordered collections that allow duplicate elements.
+ * The multisets are represented using Java Maps, where keys are the elements and values are their counts.
+ *
+ * @author [Tien Tran]
+ */
+public class MultiSets {
+
+    /**
+     * Calculates the union of two multisets.
+     * The union includes all elements from both multisets, with the maximum count for each element.
+     *
+     * @param firstSet  The first multiset.
+     * @param secondSet The second multiset.
+     * @param <T>       The type of elements in the multisets.
+     * @return The union of the two multisets.
+     */
+    public static <T> Map<T, Integer> union(Map<T, Integer> firstSet, Map<T, Integer> secondSet) {
+        Map<T, Integer> unionedSet = new HashMap<>(firstSet);
+        for (Map.Entry<T, Integer> entry : secondSet.entrySet()) {
+            T element = entry.getKey();
+            int count = entry.getValue();
+            unionedSet.put(element, Math.max(unionedSet.getOrDefault(element, 0), count));
+        }
+        return unionedSet;
+    }
+
+    /**
+     * Calculates the intersection of two multisets.
+     * The intersection includes only common elements, with the minimum count for each element.
+     *
+     * @param firstSet  The first multiset.
+     * @param secondSet The second multiset.
+     * @param <T>       The type of elements in the multisets.
+     * @return The intersection of the two multisets.
+     */
+    public static <T> Map<T, Integer> intersect(Map<T, Integer> firstSet, Map<T, Integer> secondSet) {
+        Map<T, Integer> intersectedSet = new HashMap<>();
+        for (Map.Entry<T, Integer> entry : firstSet.entrySet()) {
+            T element = entry.getKey();
+            int count = entry.getValue();
+            if (secondSet.containsKey(element)) {
+                intersectedSet.put(element, Math.min(count, secondSet.get(element)));
+            }
+        }
+        return intersectedSet;
+    }
+
+    /**
+     * Calculates the difference of two multisets (firstSet - secondSet).
+     * The difference includes elements from the first multiset that are not in the second,
+     * or those with a higher count in the first.
+     *
+     * @param firstSet  The first multiset.
+     * @param secondSet The second multiset.
+     * @param <T>       The type of elements in the multisets.
+     * @return The difference of the two multisets.
+     */
+    public static <T> Map<T, Integer> difference(Map<T, Integer> firstSet, Map<T, Integer> secondSet) {
+        Map<T, Integer> differencedSet = new HashMap<>(firstSet);
+        for (Map.Entry<T, Integer> entry : secondSet.entrySet()) {
+            T element = entry.getKey();
+            int count = entry.getValue();
+            if (differencedSet.containsKey(element)) {
+                int newCount = Math.max(0, differencedSet.get(element) - count);
+                if (newCount > 0) {
+                    differencedSet.put(element, newCount);
+                } else {
+                    differencedSet.remove(element);
+                }
+            }
+        }
+        return differencedSet;
+    }
+
+    /**
+     * Calculates the addition of two multisets.
+     * The addition combines all elements from both multisets, adding their counts.
+     *
+     * @param firstSet  The first multiset.
+     * @param secondSet The second multiset.
+     * @param <T>       The type of elements in the multisets.
+     * @return The addition of the two multisets.
+     */
+    public static <T> Map<T, Integer> addition(Map<T, Integer> firstSet, Map<T, Integer> secondSet) {
+        Map<T, Integer> additionSet = new HashMap<>(firstSet);
+        for (Map.Entry<T, Integer> entry : secondSet.entrySet()) {
+            T element = entry.getKey();
+            int count = entry.getValue();
+            additionSet.put(element, additionSet.getOrDefault(element, 0) + count);
+        }
+        return additionSet;
+    }
+
+    public static void main(String[] args) {
+        // Example usage with more inputs:
+        // Multiset C with characters and their counts
+        Map<Character, Integer> C = new HashMap<>();
+        C.put('a', 2);
+        C.put('b', 3);
+        C.put('c', 1);
+        // Multiset D with characters and their counts
+        Map<Character, Integer> D = new HashMap<>();
+        D.put('b', 1);
+        D.put('c', 2);
+        D.put('d', 3);
+        // Perform operations on multisets C and D
+        System.out.println("Multiset C: " + C); // Print C
+        System.out.println("Multiset D: " + D); // Print D
+        System.out.println("C Union D: " + union(C, D));
+        System.out.println("C Intersection D: " + intersect(C, D));
+        System.out.println("C - D: " + difference(C, D));
+        System.out.println("C + D: " + addition(C, D));
+    }
+}
