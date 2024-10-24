@@ -1,0 +1,11 @@
+1. Overloaded methods should work either way, but may not be the best approach as it leads to a higher complexity, and therefor a higher chance of bugs.
+
+2. It would be possible to store sets and multisets in a single class, but like before will add complexity and may not be the best choice.
+
+3. It can be difficult to make a decision for the best type, depending on the complexity of the situation. With experience these decisions would become easier though.
+
+4. It's possible because within an array you can have multiple types, including other arrays, but everytime you do it adds complexity.
+
+5. For the purpose of natural language it would be good to have a lot of speech options, or maybe use an online dictionary to decipher things. A website for slang would be particularly useful as something to integrate with.
+
+6. Having such a vast array of possibilities means that natural language processing could be a bit inaccurate due to the vastness of speech difference between, cultures, languages, and even within cultures.
