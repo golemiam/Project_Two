@@ -87,7 +87,27 @@ public class StandardSets {
 		}
 		return unionedSet;
 	}
-	
+
+	/**
+	 * Creates a bit string for a set to display which elements it has from the universal set.
+	 * @param USet
+	 * @param set
+	 * @return bitString
+	 */
+	private static String bitString (HashSet<Integer> USet, HashSet<Integer> set) {
+		HashSet<Integer> subSet = new HashSet<Integer>(set);
+		HashSet<Integer> universalSet = new HashSet<Integer>(USet);
+		StringBuilder bitString = new StringBuilder();
+		for (Integer i: universalSet) {
+			if (subSet.contains(i)) {
+				bitString.append(1);
+			}
+			else {
+				bitString.append(0);
+			}
+		}
+		return bitString.toString();
+	}
 
 	/**
 	 * Creates the Universal Set, Set A, Set B, and prints the results of the operations.
@@ -142,6 +162,8 @@ public class StandardSets {
 		 System.out.println("B - A: " + difference(setB,setA));
 		 //A SD B: {0,1,2,7,8,9}
 		 System.out.println("A SymmetricDifference B: " + symmetricDifference(setA, setB));
+
+		 System.out.println("BitString of Set B: " + bitString(universalSet,setB));
 	}
 
 }
